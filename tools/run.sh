@@ -9,7 +9,7 @@ REPO_ROOT="$(git rev-parse --show-toplevel)"    # Repo path
 BUILD_DIR="${REPO_ROOT}/build"                  # Build artifacts path
 MODE="--app"                                    # Default mode
 CLEAN=false                                     # By default not clean artifacts
-PROJECT_NAME="master"                         # Name of homework app
+PROJECT_NAME="ipFilter"                           # Name of homework app
 
 # Parsing args
 while [[ $# -gt 0 ]]; do

@@ -1,5 +1,5 @@
 add_executable(${PROJECT_NAME} 
-    main.cpp
+    ipFilter.cpp
 )
 
 set_target_properties(${PROJECT_NAME} PROPERTIES ENABLE_EXPORTS ON)
